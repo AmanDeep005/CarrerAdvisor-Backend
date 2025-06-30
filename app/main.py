@@ -18,4 +18,4 @@ app.include_router(app_router)
 # Default route
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the CareerCoach Backend"}
+    return {"message": "Welcome to the CareerAdviser Backend"}
